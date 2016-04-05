@@ -18,18 +18,19 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'sqlite3', '~> 1.3', '>= 1.3.11'
   gem 'byebug'
-  gem 'spring', '~> 1.6', '>= 1.6.4'
-  gem 'web-console'
+  gem 'spring'
+  
 end
-
+gem 'web-console'
 
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
-  gem 'minitest-reporters', '1.1.8'
-  gem 'mini_backtrace', '~> 0.1.3'
-  gem 'guard-minitest', '~> 2.4', '>= 2.4.4'
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard-minitest'
+   gem 'guard'
 end
 
 group :production do
