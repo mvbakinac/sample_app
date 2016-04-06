@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root to: 'static_pages#home', via: :get
  
   get    'signup'  =>   'users#new'
+  get    'index'   =>   'users#index'
   get    'help'    =>   'static_pages#help'
   get    'about'   =>   'static_pages#about'
   get    'contact' =>   'static_pages#contact'
